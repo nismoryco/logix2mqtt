@@ -1,0 +1,27 @@
+{
+	"mqtt":{
+		"broker":"10.10.10.5",
+		"port":1883,
+		"username":"logix2mqtt",
+		"password":"Adp8DyucpVGVAw",
+		"keepalive":60,
+		"pub_topic":"tele/logix2mqtt/STAT",
+		"pub_qos":0,
+		"pub_retain":false
+	},
+	"logix":{
+		"gateway":"192.168.1.10",
+		"path":"1,0",
+		"timeout":5000,
+		"interval":1000
+	},
+	"tags":[
+		["c1", "dint"],
+		["my_bool", "bool"],
+		["c1.0", "bit"],
+		["my_array[0]", "dint"],
+		["my_array[1]", "dint"],
+		["t1.ACC", "dint"],
+		["my_string", "string"]
+	]
+}
